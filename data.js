@@ -1,23 +1,23 @@
 export const products = [
   {
-    image: "./src/assets/images/pizza1.jpg",
+    image: "/uploads/products/pizza1.jpg",
     category: "product",
   },
   {
-    image: "./src/assets/images/pizza2.jpg",
+    image: "/uploads/products/pizza2.jpg",
     category: "product",
   }, 
   {
-    image: "./src/assets/images/pizza3.jpg",
+    image: "/uploads/products/pizza3.jpg",
     category: "product",
   },
   {
-    image: "../src/assets/images/grill1.jpg",
+    image: "/uploads/products/grill1.jpg",
     images: [
-      "../src/assets/images/grill1.jpg",
-      "../src/assets/images/pizza1.jpg",
-      "../src/assets/images/pizza2.jpg",
-      "../src/assets/images/pizza3.jpg",
+      "/uploads/products/pizza1.jpg",
+      "/uploads/products/pizza1.jpg",
+      "/uploads/products/pizza2.jpg",
+      "/uploads/products/pizza3.jpg",
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -25,10 +25,10 @@ export const products = [
   {
     image: "../src/assets/images/grill1.jpg",
     images: [
-      "../src/assets/images/grill1.jpg",
-      "../src/assets/images/pizza1.jpg",
-      "../src/assets/images/pizza2.jpg",
-      "../src/assets/images/pizza3.jpg",
+      "/uploads/products/grill1.jpg",
+      "/uploads/products/pizza1.jpg",
+      "/uploads/products/pizza2.jpg",
+      "/uploads/products/pizza3.jpg",
     ],
     description: "",
     category: "swiper",
@@ -36,10 +36,10 @@ export const products = [
   {
     image: "../src/assets/images/grill1.jpg",
     images: [
-      "../src/assets/images/grill1.jpg",
-      "../src/assets/images/pizza1.jpg",
-      "../src/assets/images/pizza2.jpg",
-      "../src/assets/images/pizza3.jpg",
+      "/uploads/products/grill1.jpg",
+      "/uploads/products/grill1.jpg",
+      "/uploads/products/pizza2.jpg",
+      "/uploads/products/pizza3.jpg",
     ],
     description: "",
     category: "swiper",
@@ -47,10 +47,10 @@ export const products = [
   {
     image: "../src/assets/images/grill1.jpg",
     images: [
-      "../src/assets/images/grill1.jpg",
-      "../src/assets/images/pizza1.jpg",
-      "../src/assets/images/pizza2.jpg",
-      "../src/assets/images/pizza3.jpg",
+      "/uploads/products/grill1.jpg",
+      "/uploads/products/grill1.jpg",
+      "/uploads/products/pizza2.jpg",
+      "/uploads/products/pizza3.jpg",
     ],
     description: "",
     category: "swiper",
