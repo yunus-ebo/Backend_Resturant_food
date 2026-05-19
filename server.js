@@ -16,7 +16,7 @@ const app = express();
 
 // من أجل ان تظهر الصور في المتصفح
 
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+app.use("/uploads/images", express.static(path.join(__dirname, "uploads/images")));
 
 app.use(express.json());
 app.use(cors({
