@@ -35,3 +35,9 @@ const __dirname = path.dirname(__filename);
 app.use('/uploads',express.static(path.join(__dirname, "uploads"))) .......
 ............
 */
+
+
+/*
+1-- mongodb+srv://programmerhacker001_db_user:programmer_mymongodb_001@yunus.upmy5lw.mongodb.net/?appName=yunus
+2-- password: programmer_mymongodb_001
+*/
