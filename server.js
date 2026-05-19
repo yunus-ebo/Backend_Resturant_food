@@ -1,11 +1,9 @@
-// import dotenv from 'dotenv'
 import express from "express";
 import cors from "cors";
 import path from "path";
 import products from "./routes/productRoutes.js";
 import connectDB from "./config/db.js";
 import { fileURLToPath } from "url";
-// dotenv.config();
 
 connectDB();
 
@@ -19,10 +17,7 @@ const app = express();
 app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 
 app.use(express.json());
-app.use(cors({
-    origin:["http://localhost:5173"],
-    credentials:true
-}));
+app.use(cors());
 
 app.use("/api/products", products);
 // to show [Api is running...] instead of [CANNOT GET] in browser
@@ -50,3 +45,10 @@ app.use('/uploads',express.static(path.join(__dirname, "uploads"))) .......
 
 3-- https://backend-resturant-food-1.onrender.com
 */
+
+
+
+// app.use(cors({
+//     origin:["http://localhost:5173"],
+//     credentials:true
+// }));
