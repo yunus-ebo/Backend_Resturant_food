@@ -1,0 +1,37 @@
+// import dotenv from 'dotenv'
+import express from "express";
+import cors from "cors";
+import path from "path";
+import products from "./routes/productRoutes.js";
+import connectDB from "./config/db.js";
+import { fileURLToPath } from "url";
+// dotenv.config();
+
+connectDB();
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+const app = express();
+
+// من أجل ان تظهر الصور في المتصفح
+
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+app.use(express.json());
+app.use(cors());
+
+app.use("/api/products", products);
+
+const PORT = process.env.PORT || 8000;
+app.listen(PORT, console.log(`this server is running on port ${PORT}`));
+
+/*
+INFO:
+-- without these two lines of codes 👇 [path.dirname] will not work with [import] system 
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+-- if only :
+app.use('/uploads',express.static(path.join(__dirname, "uploads"))) .......
+............
+*/
