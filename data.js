@@ -23,7 +23,7 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "../src/assets/images/grill1.jpg",
+    image: "/uploads/products/grill1.jpg",
     images: [
       "/uploads/products/grill1.jpg",
       "/uploads/products/pizza1.jpg",
@@ -34,7 +34,7 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "../src/assets/images/grill1.jpg",
+    image: "/uploads/products/grill1.jpg",
     images: [
       "/uploads/products/grill1.jpg",
       "/uploads/products/grill1.jpg",
@@ -45,7 +45,7 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "../src/assets/images/grill1.jpg",
+    image: "/uploads/products/grill1.jpg",
     images: [
       "/uploads/products/grill1.jpg",
       "/uploads/products/grill1.jpg",
@@ -56,7 +56,7 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "../src/assets/images/grill1.jpg",
+    image: "/uploads/products/grill1.jpg",
     images: [
       "/uploads/products/grill1.jpg",
       "/uploads/products/pizza1.jpg",
