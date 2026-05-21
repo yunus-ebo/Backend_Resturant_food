@@ -14,7 +14,7 @@ export const products = [
   {
     image: "/uploads/products/grill1.jpg",
     images: [
-      "/uploads/products/pizza1.jpg",
+      "/uploads/products/grill1.jpg",
       "/uploads/products/pizza1.jpg",
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
