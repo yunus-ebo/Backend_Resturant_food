@@ -6,7 +6,7 @@ export const products = [
   {
     image: "/uploads/products/pizza2.jpg",
     category: "product",
-  }, 
+  },
   {
     image: "/uploads/products/pizza3.jpg",
     category: "product",
@@ -193,5 +193,9 @@ export const products = [
     price: 90,
     discount: 20,
     category: "offer",
+  },
+  {
+    image: "/uploads/products/kabab.png",
+    category: "singleBanner",
   },
 ];
