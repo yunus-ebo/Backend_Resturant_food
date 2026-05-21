@@ -9,6 +9,18 @@ const getProducts = async (req, res) => {
   }
 };
 
+const getProductById = async (req, res) => {
+  try {
+    const product = await Product.findById(req.params.id);
+    if (!product) {
+      res.status(404).json({ message: "product not found" });
+    }
+    res.json(product);
+  } catch (error) {
+    res.status(500).json({ message: message.error });
+  }
+};
+
 const createProduct = async (req, res) => {
   try {
     const product = await Product.create({
@@ -23,9 +35,7 @@ const createProduct = async (req, res) => {
       images: req.body.images
         ? req.body.images.map((file) => `uploads/products/${file.filename}`)
         : [],
-        icon: req.body.icon
-        ? `uploads/icons/${req.file.icon[0].filename}`
-        : ""
+      icon: req.body.icon ? `uploads/icons/${req.file.icon[0].filename}` : "",
     });
   } catch (error) {
     res.status(500).json({ message: message.error });
@@ -38,11 +48,11 @@ const deleteProduct = async (req, res) => {
     if (!product) {
       res.status(404).json({ message: "product not found" });
     } else {
-      res.status(200).json({message:"product has been deleted"})
+      res.status(200).json({ message: "product has been deleted" });
     }
   } catch (error) {
     res.status(500).json({ message: message.error });
   }
 };
 
-export { getProducts, createProduct, deleteProduct };
+export { getProducts, getProductById, createProduct, deleteProduct };

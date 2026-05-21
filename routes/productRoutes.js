@@ -1,10 +1,11 @@
 import express from 'express'
 import upload from '../middleware/uploads.js'
-import {getProducts,createProduct,deleteProduct} from '../controllers/productController.js'
+import {getProducts, getProductById, createProduct, deleteProduct} from '../controllers/productController.js'
 
 const router = express.Router()
 
 router.get("/", getProducts)
+router.get("/:id",getProductById)
 router.post("/",upload.fields([
     {name:"image",maxCount:1},
     {name:"images",maxCount:20},
