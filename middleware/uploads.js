@@ -13,7 +13,7 @@ const storage = multer.diskStorage({
       if (file.fieldname === "images" || file.fieldname === "image") {
         // cb(null, "uploads/products");
         cb(null, path.join(__dirname, "uploads/products"));
-      } else if (file.fieldname === "icons") {
+      } else if (file.fieldname === "icon") {
         // cb(null, "uploads/icons");
         cb(null, path.join(__dirname, "uploads/icons"));
       } else {

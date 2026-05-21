@@ -109,27 +109,47 @@ export const products = [
     caros: "pizza4",
   },
   {
-    image: "/uploads/icons/fakhar.png",
+    icon: "/uploads/icons/fakhar.png",
     title: "طبق رئيسي",
     category: "icon",
   },
   {
-    image: "/uploads/icons/grillFood.png",
+    icon: "/uploads/icons/grillFood.png",
     title: "طبق رئيسي",
     category: "icon",
   },
   {
-    image: "/uploads/icons/ham.png",
+    icon: "/uploads/icons/ham.png",
     title: "طبق رئيسي",
     category: "icon",
   },
   {
-    image: "/uploads/icons/seafood.png",
+    icon: "/uploads/icons/seafood.png",
     title: "طبق رئيسي",
     category: "icon",
   },
   {
-    image: "/uploads/icons/fakhar.png",
+    icon: "/uploads/icons/fakhar.png",
+    title: "طبق رئيسي",
+    category: "icon",
+  },
+  {
+    icon: "/uploads/icons/fakhar.png",
+    title: "طبق رئيسي",
+    category: "icon",
+  },
+  {
+    icon: "/uploads/icons/fakhar.png",
+    title: "طبق رئيسي",
+    category: "icon",
+  },
+  {
+    icon: "/uploads/icons/fakhar.png",
+    title: "طبق رئيسي",
+    category: "icon",
+  },
+  {
+    icon: "/uploads/icons/fakhar.png",
     title: "طبق رئيسي",
     category: "icon",
   },

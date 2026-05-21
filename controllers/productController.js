@@ -23,6 +23,9 @@ const createProduct = async (req, res) => {
       images: req.body.images
         ? req.body.images.map((file) => `uploads/products/${file.filename}`)
         : [],
+        icon: req.body.icon
+        ? `uploads/icons/${req.file.icon[0].filename}`
+        : ""
     });
   } catch (error) {
     res.status(500).json({ message: message.error });
