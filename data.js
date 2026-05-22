@@ -1,14 +1,14 @@
 export const products = [
   {
-    image: "/uploads/products/pizza1.jpg",
+    image: "/uploads/products/banner1.jpg",
     category: "product",
   },
   {
-    image: "/uploads/products/pizza2.jpg",
+    image: "/uploads/products/banner2.jpg",
     category: "product",
   },
   {
-    image: "/uploads/products/pizza3.jpg",
+    image: "/uploads/products/banner3.jpg",
     category: "product",
   },
   {
