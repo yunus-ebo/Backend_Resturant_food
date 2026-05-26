@@ -12,13 +12,13 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const app = express();
-
-// من أجل ان تظهر الصور في المتصفح
-
-app.use("/uploads", express.static(path.join(__dirname, "uploads")));
-
 app.use(express.json());
 app.use(cors());
+
+// من أجل ان تظهر الصور في المتصفح
+app.use("/uploads", express.static(path.join(__dirname, "uploads")));
+
+
 
 app.use("/api/products", products);
 
