@@ -4,7 +4,7 @@ import cors from "cors";
 import path from "path";
 import products from "./routes/productRoutes.js";
 import connectDB from "./config/db.js";
-import QR from './routes/qrRoutes.js'
+import qrRoutes from './routes/qrRoutes.js'
 
 connectDB();
 
@@ -23,7 +23,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api/products", products);
 
 // qr code route
-app.use("/qr", QR);
+app.use("/qr", qrRoutes);
 
 // to show [Api is running...] instead of [CANNOT GET] in browser
 app.get("/",(req,res) => {
