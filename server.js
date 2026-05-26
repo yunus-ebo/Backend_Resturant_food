@@ -1,9 +1,10 @@
+import { fileURLToPath } from "url";
 import express from "express";
 import cors from "cors";
 import path from "path";
 import products from "./routes/productRoutes.js";
 import connectDB from "./config/db.js";
-import { fileURLToPath } from "url";
+import QR from './routes/qrRoutes.js'
 
 connectDB();
 
@@ -20,10 +21,14 @@ app.use(express.json());
 app.use(cors());
 
 app.use("/api/products", products);
+
+// qr code route
+app.use("/qr", QR);
+
 // to show [Api is running...] instead of [CANNOT GET] in browser
 app.get("/",(req,res) => {
     res.send("Api is running...")
-})
+});
 
 const PORT = process.env.PORT || 8000;
 app.listen(PORT, console.log(`this server is running on port ${PORT}`));
