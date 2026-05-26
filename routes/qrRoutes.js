@@ -8,4 +8,6 @@ router.get("/", getAllQRs);
 router.get("/:id", redirectQR);
 router.delete("/:id", deleteQR);
 
+
+
 export default router;

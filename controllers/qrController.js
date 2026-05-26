@@ -13,7 +13,7 @@ const createQr = async (req, res) => {
     res.status(201).json({
       success: true,
       // qrUrl: `${process.env.PROJECT_LINK}/${qr._id}`,
-      qrUrl: `https://backend-resturant-food-1.onrender.com/qr/${qr._id}`,
+      qrUrl: `https://backend-resturant-food-1.onrender.com/qr/create/${qr._id}`,
       data: qr,
     });
   } catch (error) {
