@@ -64,7 +64,7 @@ const singleQR = async (req,res) => {
 
 const deleteQR = async (req,res) => {
     try {
-        await QrCode.findByIdAndDelete(req,params.id);
+        await QrCode.findByIdAndDelete(req.params.id);
         res.status(200).json({success:true, message:"qr deleted"});
     } catch (error) {
         res.status(500).json({success:false, message:error.message});
