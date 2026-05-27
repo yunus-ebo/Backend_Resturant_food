@@ -23,7 +23,7 @@ app.use("/uploads", express.static(path.join(__dirname, "uploads")));
 app.use("/api/products", products);
 
 // qr code route
-app.use("/qr", qrRoutes);
+app.use("/api/qr", qrRoutes);
 
 // to show [Api is running...] instead of [CANNOT GET] in browser
 app.get("/",(req,res) => {
