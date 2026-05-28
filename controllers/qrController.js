@@ -13,9 +13,6 @@ const createQr = async (req,res) => {
             websiteUrl,
             qrCode
         });
-        if(!restaurantQr){
-            return res.status(404).json({success:false,message:"no QR found"})
-        }
         res.status(201).json({success:true,restaurantQr})
     } catch (error) {
         res.status(500).json({success:false,message:error.message});
