@@ -1,31 +1,20 @@
-import mongoose from "mongoose";
+import mongoose from 'mongoose';
 
-const qrSchema = new mongoose.Schema(
-  {
-    type: {
-      type: String,
-      enum: ["main", "table"],
-      required: true,
+const qrSchema = new mongoose.Schema({
+    name:{
+        type:String,
+        required:true
     },
-    tableNumber: {
-      type: Number,
-      default: null,
+    websiteUrl:{
+        type:String,
+        required:true
     },
-    originalUrl: {
-      type: String,
-      required: true,
-    },
-    clicks: {
-      type: Number,
-      default: 0,
-    },
-    isActive: {
-      type: Boolean,
-      default: true,
-    },
-  },
-  { timestamps: true },
+    qrCode:{
+        type:String,
+    }
+},
+{timestamps:true}
 );
 
-const QrCode = mongoose.model("qrCode", qrSchema);
-export default QrCode;
+const qrModels = mongoose.model("qrCode",qrSchema);
+export default qrModels;

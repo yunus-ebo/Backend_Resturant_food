@@ -1,13 +1,10 @@
-import {createQr, getAllQRs, singleQR, redirectQR, deleteQR} from '../controllers/qrController';
-import express from 'express';
+import { createQr, getQr } from "../controllers/qrController.js";
+import express from "express";
 
 const router = express.Router();
-router.post("/create", createQr);
-router.get("/single/:id", singleQR);
-router.get("/", getAllQRs);
-router.get("/:id", redirectQR);
-router.delete("/:id", deleteQR);
 
+router.post("/create", createQr);
+router.get("/", getQr);
 
 
 export default router;
