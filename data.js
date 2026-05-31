@@ -12,9 +12,9 @@ export const products = [
     category: "product",
   },
   {
-    image: "/uploads/products/grill1.jpg",
+    image: "/uploads/products/burger.webp",
     images: [
-      "/uploads/products/grill1.jpg",
+      "/uploads/products/burger.webp",
       "/uploads/products/pizza1.jpg",
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
