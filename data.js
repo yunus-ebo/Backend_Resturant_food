@@ -23,9 +23,9 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "/uploads/products/grill1.jpg",
+    image: "/uploads/products/fakharFood.png",
     images: [
-      "/uploads/products/grill1.jpg",
+      "/uploads/products/fakharFood.png",
       "/uploads/products/pizza1.jpg",
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
@@ -34,9 +34,9 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "/uploads/products/grill1.jpg",
+    image: "/uploads/products/fish.jpg",
     images: [
-      "/uploads/products/grill1.jpg",
+      "/uploads/products/fish.jpg",
       "/uploads/products/grill1.jpg",
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
@@ -45,9 +45,9 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "/uploads/products/grill1.jpg",
+    image: "/uploads/products/sea-food.jpg",
     images: [
-      "/uploads/products/grill1.jpg",
+      "/uploads/products/sea-food.jpg",
       "/uploads/products/grill1.jpg",
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
@@ -56,9 +56,9 @@ export const products = [
     category: "swiper",
   },
   {
-    image: "/uploads/products/grill1.jpg",
+    image: "/uploads/products/mixFood.webp",
     images: [
-      "/uploads/products/grill1.jpg",
+      "/uploads/products/mixFood.webp",
       "/uploads/products/pizza1.jpg",
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
