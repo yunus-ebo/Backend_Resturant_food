@@ -12,6 +12,10 @@ export const products = [
     category: "product",
   },
   {
+    image: "/uploads/products/kabab.png",
+    category: "singleBanner",
+  },
+  {
     image: "/uploads/products/burger.webp",
     images: [
       "/uploads/products/burger.webp",
@@ -192,10 +196,38 @@ export const products = [
     description: "طريقة عمل الكنافة",
     price: 90,
     discount: 20,
-    category: "dessert",
+    category: "offer",
   },
   {
-    image: "/uploads/products/kabab.png",
-    category: "singleBanner",
+    image: "/uploads/products/dessert2.jpg",
+    title: "حلاوة الجبن",
+    description: "كنافة على الفحم:\n طريقة عمل الكنافة...",
+    price: 90,
+    discount: 20,
+    category: "offer",
+  },
+  {
+    image: "/uploads/products/dessert3.jpg",
+    title: "كنافة",
+    description: "طريقة عمل الكنافة",
+    price: 90,
+    discount: 20,
+    category: "offer",
+  },
+  {
+    image: "/uploads/products/dessert4.webp",
+    title: "كنافة",
+    description: "طريقة عمل الكنافة",
+    price: 90,
+    discount: 20,
+    category: "offer",
+  },
+  {
+    image: "/uploads/products/dessert5.webp",
+    title: "كنافة",
+    description: "طريقة عمل الكنافة",
+    price: 90,
+    discount: 20,
+    category: "offer",
   },
 ];
