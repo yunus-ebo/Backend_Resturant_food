@@ -195,7 +195,7 @@ export const products = [
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
-    discount: 20,
+    discount: 10,
     category: "offer",
   },
   {
@@ -203,7 +203,7 @@ export const products = [
     title: "حلاوة الجبن",
     description: "كنافة على الفحم:\n طريقة عمل الكنافة...",
     price: 90,
-    discount: 20,
+    discount: 15,
     category: "offer",
   },
   {
@@ -211,7 +211,7 @@ export const products = [
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
-    discount: 20,
+    discount: 12,
     category: "offer",
   },
   {
@@ -219,7 +219,7 @@ export const products = [
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
-    discount: 20,
+    discount: 5,
     category: "offer",
   },
   {
@@ -227,7 +227,7 @@ export const products = [
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
-    discount: 20,
+    discount: 10,
     category: "offer",
   },
 ];
