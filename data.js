@@ -191,7 +191,7 @@ export const products = [
     category: "dessert",
   },
   {
-    image: "/uploads/products/dessert1.jpg",
+    image: "/uploads/products/offerM1.webp",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
@@ -199,7 +199,7 @@ export const products = [
     category: "offer",
   },
   {
-    image: "/uploads/products/dessert2.jpg",
+    image: "/uploads/products/offerM2.webp",
     title: "حلاوة الجبن",
     description: "كنافة على الفحم:\n طريقة عمل الكنافة...",
     price: 90,
@@ -207,7 +207,7 @@ export const products = [
     category: "offer",
   },
   {
-    image: "/uploads/products/dessert3.jpg",
+    image: "/uploads/products/offerM3.webp",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
@@ -215,7 +215,7 @@ export const products = [
     category: "offer",
   },
   {
-    image: "/uploads/products/dessert4.webp",
+    image: "/uploads/products/offerM4.avif",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
@@ -223,7 +223,7 @@ export const products = [
     category: "offer",
   },
   {
-    image: "/uploads/products/dessert5.webp",
+    image: "/uploads/products/offerM5.webp",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
