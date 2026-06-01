@@ -191,7 +191,7 @@ export const products = [
     category: "dessert",
   },
   {
-    image: "/uploads/products/dessert5.webp",
+    image: "/uploads/products/dessert1.webp",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
     price: 90,
