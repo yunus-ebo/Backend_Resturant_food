@@ -34,7 +34,7 @@ export const products = [
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
     ],
-    description: "",
+    description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
   },
   {
@@ -45,7 +45,7 @@ export const products = [
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
     ],
-    description: "",
+    description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
   },
   {
@@ -56,7 +56,7 @@ export const products = [
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
     ],
-    description: "",
+    description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
   },
   {
@@ -67,7 +67,7 @@ export const products = [
       "/uploads/products/pizza2.jpg",
       "/uploads/products/pizza3.jpg",
     ],
-    description: "",
+    description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
   },
   {
