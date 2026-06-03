@@ -1,5 +1,9 @@
 export const products = [
   {
+    image:"./uploads/products/logo.webp",
+    category:"logo"
+  },
+  {
     image: "/uploads/products/banner1.jpg",
     category: "product",
   },
