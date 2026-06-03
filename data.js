@@ -1,6 +1,6 @@
 export const products = [
   {
-    image:"./uploads/products/logo.webp",
+    image:"/uploads/products/logo.webp",
     category:"logo"
   },
   {
