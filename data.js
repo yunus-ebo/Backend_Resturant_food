@@ -127,8 +127,8 @@ export const products = [
     category: "icon",
   },
   {
-    icon: "/uploads/icons/ham.png",
-    title: "طبق رئيسي",
+    icon: "./uploads/icons/grill_fish.webp",
+    title: "مأكولات بحرية",
     category: "icon",
   },
   {
