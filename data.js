@@ -127,7 +127,7 @@ export const products = [
     category: "icon",
   },
   {
-    icon: "./uploads/icons/grill_fish.webp",
+    icon: "/uploads/icons/grill_fish.webp",
     title: "مأكولات بحرية",
     category: "icon",
   },
