@@ -118,46 +118,73 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/grillFood.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/grill_fish.webp",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "مأكولات بحرية",
     category: "icon",
   },
   {
     icon: "/uploads/icons/seafood.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    images:[
+      {image:"/uploads/icons/fakhar.png",}
+    ],
     title: "طبق رئيسي",
     category: "icon",
   },
