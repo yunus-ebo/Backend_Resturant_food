@@ -183,6 +183,9 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"soup",
     images:[
+      {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
       {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"}
     ],
     title: "طبق رئيسي",
