@@ -118,6 +118,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    slug:"",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item1"}
     ],
@@ -126,6 +127,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/grillFood.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item2"}
     ],
@@ -134,6 +136,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/grill_fish.webp",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item3"}
     ],
@@ -142,6 +145,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/seafood.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item4"}
     ],
@@ -150,6 +154,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item5"}
     ],
@@ -158,6 +163,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item6"}
     ],
@@ -166,6 +172,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item7"}
     ],
@@ -174,6 +181,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item8"}
     ],
@@ -182,6 +190,7 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
+    slug:"mainDish",
     images:[
       {image:"/uploads/products/dessert1.jpg",item:"item9"}
     ],
