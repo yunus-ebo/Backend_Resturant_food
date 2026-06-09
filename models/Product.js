@@ -27,10 +27,10 @@ export default Product
 
 /*
 INFO:
--- if you want to add objects inside the value of images don't write => images:[String] but,
-write images[{
-image:String,
-title:String
+-- if you want to add objects inside the value of images don't write => images:[String] but write
+images[{
+ image:String,
+ title:String
 }]  
 
 */ 

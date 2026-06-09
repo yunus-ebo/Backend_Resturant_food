@@ -22,10 +22,10 @@ export const products = [
   {
     image: "/uploads/products/burger.webp",
     images: [
-      "/uploads/products/burger.webp",
-      "/uploads/products/pizza1.jpg",
-      "/uploads/products/pizza2.jpg",
-      "/uploads/products/pizza3.jpg",
+      {image:"/uploads/products/burger.webp",},
+      {image:"/uploads/products/pizza1.jpg",},
+      {image:"/uploads/products/pizza2.jpg",},
+      {image:"/uploads/products/pizza3.jpg",}
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -33,10 +33,10 @@ export const products = [
   {
     image: "/uploads/products/fakharFood.png",
     images: [
-      "/uploads/products/fakharFood.png",
-      "/uploads/products/pizza1.jpg",
-      "/uploads/products/pizza2.jpg",
-      "/uploads/products/pizza3.jpg",
+      {image:"/uploads/products/fakharFood.png",},
+      {image:"/uploads/products/pizza1.jpg",},
+      {image:"/uploads/products/pizza2.jpg",},
+      {image:"/uploads/products/pizza3.jpg",}
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -44,10 +44,10 @@ export const products = [
   {
     image: "/uploads/products/fish.jpg",
     images: [
-      "/uploads/products/fish.jpg",
-      "/uploads/products/grill1.jpg",
-      "/uploads/products/pizza2.jpg",
-      "/uploads/products/pizza3.jpg",
+     { image:"/uploads/products/fish.jpg",},
+     { image:"/uploads/products/grill1.jpg",},
+     { image:"/uploads/products/pizza2.jpg",},
+     { image:"/uploads/products/pizza3.jpg",}
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -55,10 +55,10 @@ export const products = [
   {
     image: "/uploads/products/sea-food.jpg",
     images: [
-      "/uploads/products/sea-food.jpg",
-      "/uploads/products/grill1.jpg",
-      "/uploads/products/pizza2.jpg",
-      "/uploads/products/pizza3.jpg",
+      {image:"/uploads/products/sea-food.jpg",},
+      {image:"/uploads/products/grill1.jpg",},
+      {image:"/uploads/products/pizza2.jpg",},
+      {image:"/uploads/products/pizza3.jpg",}
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -66,10 +66,10 @@ export const products = [
   {
     image: "/uploads/products/mixFood.webp",
     images: [
-      "/uploads/products/mixFood.webp",
-      "/uploads/products/pizza1.jpg",
-      "/uploads/products/pizza2.jpg",
-      "/uploads/products/pizza3.jpg",
+     { image:"/uploads/products/mixFood.webp",},
+     { image:"/uploads/products/pizza1.jpg",},
+     { image:"/uploads/products/pizza2.jpg",},
+     { image:"/uploads/products/pizza3.jpg",}
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
