@@ -120,7 +120,10 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"western_meals",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item1",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item1",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item1",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item1",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item1",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -129,7 +132,10 @@ export const products = [
     icon: "/uploads/icons/grillFood.png",
     slug:"seafood",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item2",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item2",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item2",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item2",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item2",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -138,7 +144,10 @@ export const products = [
     icon: "/uploads/icons/grill_fish.webp",
     slug:"grill_food",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item3",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item3",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item3",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item3",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item3",category:"icon"},
     ],
     title: "مأكولات بحرية",
     category: "icon",
@@ -147,7 +156,10 @@ export const products = [
     icon: "/uploads/icons/seafood.png",
     slug:"pottery",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item4",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item4",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item4",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item4",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item4",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -156,7 +168,10 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"pizza",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item5",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item5",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item5",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item5",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item5",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -165,7 +180,10 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"cold_snacks",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item6",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item6",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item6",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item6",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item6",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -174,7 +192,10 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"hot_snacks",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item7",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item7",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item7",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item7",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item7",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -186,7 +207,7 @@ export const products = [
       {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
       {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
       {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -195,7 +216,10 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"salad",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item9",category:"icon"}
+      {image:"/uploads/products/dessert1.jpg",item:"item9",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item9",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item9",category:"icon"},
+      {image:"/uploads/products/dessert1.jpg",item:"item9",category:"icon"},
     ],
     title: "طبق رئيسي",
     category: "icon",
