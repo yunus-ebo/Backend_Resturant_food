@@ -118,9 +118,9 @@ export const products = [
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"",
+    slug:"western",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item1"}
+      {image:"/uploads/products/dessert1.jpg",item:"item1",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -129,7 +129,7 @@ export const products = [
     icon: "/uploads/icons/grillFood.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item2"}
+      {image:"/uploads/products/dessert1.jpg",item:"item2",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -138,7 +138,7 @@ export const products = [
     icon: "/uploads/icons/grill_fish.webp",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item3"}
+      {image:"/uploads/products/dessert1.jpg",item:"item3",category:"icon"}
     ],
     title: "مأكولات بحرية",
     category: "icon",
@@ -147,7 +147,7 @@ export const products = [
     icon: "/uploads/icons/seafood.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item4"}
+      {image:"/uploads/products/dessert1.jpg",item:"item4",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -156,7 +156,7 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item5"}
+      {image:"/uploads/products/dessert1.jpg",item:"item5",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -165,7 +165,7 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item6"}
+      {image:"/uploads/products/dessert1.jpg",item:"item6",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -174,7 +174,7 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item7"}
+      {image:"/uploads/products/dessert1.jpg",item:"item7",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -183,7 +183,7 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item8"}
+      {image:"/uploads/products/dessert1.jpg",item:"item8",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -192,7 +192,7 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"mainDish",
     images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item9"}
+      {image:"/uploads/products/dessert1.jpg",item:"item9",category:"icon"}
     ],
     title: "طبق رئيسي",
     category: "icon",
