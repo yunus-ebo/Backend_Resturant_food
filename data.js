@@ -119,7 +119,7 @@ export const products = [
   {
     icon: "/uploads/icons/fakhar.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -127,7 +127,7 @@ export const products = [
   {
     icon: "/uploads/icons/grillFood.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -135,7 +135,7 @@ export const products = [
   {
     icon: "/uploads/icons/grill_fish.webp",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "مأكولات بحرية",
     category: "icon",
@@ -143,7 +143,7 @@ export const products = [
   {
     icon: "/uploads/icons/seafood.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -151,7 +151,7 @@ export const products = [
   {
     icon: "/uploads/icons/fakhar.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -159,7 +159,7 @@ export const products = [
   {
     icon: "/uploads/icons/fakhar.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -167,7 +167,7 @@ export const products = [
   {
     icon: "/uploads/icons/fakhar.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -175,7 +175,7 @@ export const products = [
   {
     icon: "/uploads/icons/fakhar.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -183,7 +183,7 @@ export const products = [
   {
     icon: "/uploads/icons/fakhar.png",
     images:[
-      {image:"/uploads/icons/fakhar.png",}
+      {image:"/uploads/products/dessert1.jpg",}
     ],
     title: "طبق رئيسي",
     category: "icon",

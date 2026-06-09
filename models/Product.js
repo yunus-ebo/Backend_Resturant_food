@@ -13,7 +13,9 @@ const productSchema = new mongoose.Schema({
     price:Number,
     discount:Number,
     image:String,
-    images:[String],
+    images:[{
+        image:String,
+    }],
     icon:String
 },{
     timestamps:true
@@ -22,3 +24,13 @@ const productSchema = new mongoose.Schema({
 
 const Product = mongoose.model("product",productSchema)
 export default Product
+
+/*
+INFO:
+-- if you want to add objects inside the value of images don't write => images:[String] but,
+write images[{
+image:String,
+title:String
+}]  
+
+*/ 
