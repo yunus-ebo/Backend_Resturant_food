@@ -120,7 +120,7 @@ export const products = [
     icon: "/uploads/icons/fakhar.png",
     slug:"western_meals",
     images:[
-      {image:"/uploads/products/fattahDajaj.webp",item:"فتة دجاج",description:"بهارات (بهار مشكل، فلفل اسود، كمون، كزبرة، كاري، بابريكا مدخنة، كركم، بودرة ثوم، بودرة بصل) وملح...",category:"icon"},
+      {image:"/uploads/products/fattahDajaj.webp",item:"فتة دجاج",description:"بهارات (بهار مشكل، فلفل اسود، كمون، كزبرة، كاري، بابريكا\n مدخنة، كركم، بودرة ثوم، بودرة بصل) وملح...",category:"icon"},
       {image:"/uploads/products/musakhanFilastini.webp",item:"مسخن فلسطيني",description:"دجاج, بصل, سماق, زيت زيتون, خبز طابون أو شراك...",category:"icon"},
       {image:"/uploads/products/maftolkarii.webp",item:"مفتول بالقرعة الصفراء",description:"قرعة صفراء, دجاج, بصل, حمص مسلوق, بندورة, سمنة, ملح, ماجي...",category:"icon"},
       {image:"/uploads/products/kabsah.webp",item:"كبسه بالدجاج",description:"بندورة, بصل, دجاج, رز بسمتي, جزر, ثوم, رب البندورة, زيت زيتون, فلفل ملح قرفة...",category:"icon"},
