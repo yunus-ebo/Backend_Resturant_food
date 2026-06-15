@@ -77,42 +77,90 @@ export const products = [
   {
     image: "/uploads/products/specialPlates1.webp",
     title: "بيتزا 1",
-    description: "Lorem ipsum dolor, sit amet consectetur",
+    descriptions: [
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص"
+    ],
+    description:"Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza1",
   },
   {
     image: "/uploads/products/specialPlates2.webp",
     title: "بيتزا 2",
-    description: "Lorem ipsum dolor, sit amet consectetur",
+    descriptions:[
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص"
+    ],
+    description:"Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza2",
   },
   {
     image: "/uploads/products/specialPlates3.webp",
     title: "بيتزا 3",
-    description: "Lorem ipsum dolor, sit amet consectetur",
+    descriptions:[
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص"
+    ],
+    description:"Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza3",
   },
   {
     image: "/uploads/products/specialPlates4.webp",
     title: "بيتزا 4",
-    description: "Lorem ipsum dolor, sit amet consectetur",
+    descriptions:[
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص"
+    ],
+    description:"Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza4",
   },
   {
     image: "/uploads/products/specialPlates5.webp",
     title: "بيتزا 5",
-    description: "Lorem ipsum dolor, sit amet consectetur",
+    descriptions:[
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص"
+    ],
+    description:"Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza4",
   },
   {
     image: "/uploads/products/specialPlates6.webp",
     title: "بيتزا 6",
-    description: "Lorem ipsum dolor, sit amet consectetur",
+    descriptions:[
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص"
+    ],
+    description:"Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza4",
   },
