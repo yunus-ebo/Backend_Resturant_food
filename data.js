@@ -1,7 +1,7 @@
 export const products = [
   {
-    image:"/uploads/products/logo.webp",
-    category:"logo"
+    image: "/uploads/products/logo.webp",
+    category: "logo",
   },
   {
     image: "/uploads/products/banner1.jpg",
@@ -22,10 +22,10 @@ export const products = [
   {
     image: "/uploads/products/burger.webp",
     images: [
-      {image:"/uploads/products/burger.webp",},
-      {image:"/uploads/products/pizza1.jpg",},
-      {image:"/uploads/products/pizza2.jpg",},
-      {image:"/uploads/products/pizza3.jpg",}
+      { image: "/uploads/products/burger.webp" },
+      { image: "/uploads/products/pizza1.jpg" },
+      { image: "/uploads/products/pizza2.jpg" },
+      { image: "/uploads/products/pizza3.jpg" },
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -33,10 +33,10 @@ export const products = [
   {
     image: "/uploads/products/fakharFood.png",
     images: [
-      {image:"/uploads/products/fakharFood.png",},
-      {image:"/uploads/products/pizza1.jpg",},
-      {image:"/uploads/products/pizza2.jpg",},
-      {image:"/uploads/products/pizza3.jpg",}
+      { image: "/uploads/products/fakharFood.png" },
+      { image: "/uploads/products/pizza1.jpg" },
+      { image: "/uploads/products/pizza2.jpg" },
+      { image: "/uploads/products/pizza3.jpg" },
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -44,10 +44,10 @@ export const products = [
   {
     image: "/uploads/products/fish.jpg",
     images: [
-     { image:"/uploads/products/fish.jpg",},
-     { image:"/uploads/products/grill1.jpg",},
-     { image:"/uploads/products/pizza2.jpg",},
-     { image:"/uploads/products/pizza3.jpg",}
+      { image: "/uploads/products/fish.jpg" },
+      { image: "/uploads/products/grill1.jpg" },
+      { image: "/uploads/products/pizza2.jpg" },
+      { image: "/uploads/products/pizza3.jpg" },
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -55,10 +55,10 @@ export const products = [
   {
     image: "/uploads/products/sea-food.jpg",
     images: [
-      {image:"/uploads/products/sea-food.jpg",},
-      {image:"/uploads/products/grill1.jpg",},
-      {image:"/uploads/products/pizza2.jpg",},
-      {image:"/uploads/products/pizza3.jpg",}
+      { image: "/uploads/products/sea-food.jpg" },
+      { image: "/uploads/products/grill1.jpg" },
+      { image: "/uploads/products/pizza2.jpg" },
+      { image: "/uploads/products/pizza3.jpg" },
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -66,10 +66,10 @@ export const products = [
   {
     image: "/uploads/products/mixFood.webp",
     images: [
-     { image:"/uploads/products/mixFood.webp",},
-     { image:"/uploads/products/pizza1.jpg",},
-     { image:"/uploads/products/pizza2.jpg",},
-     { image:"/uploads/products/pizza3.jpg",}
+      { image: "/uploads/products/mixFood.webp" },
+      { image: "/uploads/products/pizza1.jpg" },
+      { image: "/uploads/products/pizza2.jpg" },
+      { image: "/uploads/products/pizza3.jpg" },
     ],
     description: "صحن مشاوي مشكل مع سرفيس كامل وبسعر مناسب",
     category: "swiper",
@@ -83,191 +83,374 @@ export const products = [
       "كوب رز",
       "لوز محمص",
       "بقدونس",
-      "خبز عربي محمص"
+      "خبز عربي محمص",
     ],
-    description:"Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza1",
   },
   {
     image: "/uploads/products/specialPlates2.webp",
     title: "بيتزا 2",
-    descriptions:[
+    descriptions: [
       "600 غرام صدور دجاج",
       "500 غرام لبن",
       "كوب رز",
       "لوز محمص",
       "بقدونس",
-      "خبز عربي محمص"
+      "خبز عربي محمص",
     ],
-    description:"Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza2",
   },
   {
     image: "/uploads/products/specialPlates3.webp",
     title: "بيتزا 3",
-    descriptions:[
+    descriptions: [
       "600 غرام صدور دجاج",
       "500 غرام لبن",
       "كوب رز",
       "لوز محمص",
       "بقدونس",
-      "خبز عربي محمص"
+      "خبز عربي محمص",
     ],
-    description:"Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza3",
   },
   {
     image: "/uploads/products/specialPlates4.webp",
     title: "بيتزا 4",
-    descriptions:[
+    descriptions: [
       "600 غرام صدور دجاج",
       "500 غرام لبن",
       "كوب رز",
       "لوز محمص",
       "بقدونس",
-      "خبز عربي محمص"
+      "خبز عربي محمص",
     ],
-    description:"Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza4",
   },
   {
     image: "/uploads/products/specialPlates5.webp",
     title: "بيتزا 5",
-    descriptions:[
+    descriptions: [
       "600 غرام صدور دجاج",
       "500 غرام لبن",
       "كوب رز",
       "لوز محمص",
       "بقدونس",
-      "خبز عربي محمص"
+      "خبز عربي محمص",
     ],
-    description:"Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza4",
   },
   {
     image: "/uploads/products/specialPlates6.webp",
     title: "بيتزا 6",
-    descriptions:[
+    descriptions: [
       "600 غرام صدور دجاج",
       "500 غرام لبن",
       "كوب رز",
       "لوز محمص",
       "بقدونس",
-      "خبز عربي محمص"
+      "خبز عربي محمص",
     ],
-    description:"Lorem ipsum dolor sit amet",
+    description: "Lorem ipsum dolor sit amet",
     category: "special_plates",
     caros: "pizza4",
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"western_meals",
-    images:[
-      {image:"/uploads/products/fattahDajaj.webp",item:"فتة دجاج",description:"بهارات (بهار مشكل، فلفل اسود،\n كمون، كزبرة، كاري، بابريكا ...",category:"icon"},
-      {image:"/uploads/products/musakhanFilastini.webp",item:"مسخن فلسطيني",description:"دجاج, بصل, سماق, زيت زيتون, خبز طابون أو شراك...",category:"icon"},
-      {image:"/uploads/products/maftolkarii.webp",item:"مفتول بالقرعة الصفراء",description:"قرعة صفراء, دجاج, بصل, حمص مسلوق, بندورة, سمنة, ملح, ماجي...",category:"icon"},
-      {image:"/uploads/products/kabsah.webp",item:"كبسه بالدجاج",description:"بندورة, بصل, دجاج, رز بسمتي, جزر, ثوم, رب البندورة, زيت زيتون, فلفل ملح قرفة...",category:"icon"},
+    slug: "western_meals",
+    images: [
+      {
+        image: "/uploads/products/fattahDajaj.webp",
+        item: "فتة دجاج",
+        description:
+          "بهارات (بهار مشكل، فلفل اسود،\n كمون، كزبرة، كاري، بابريكا ...",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/musakhanFilastini.webp",
+        item: "مسخن فلسطيني",
+        description: "دجاج, بصل, سماق, زيت زيتون, خبز طابون أو شراك...",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/maftolkarii.webp",
+        item: "مفتول بالقرعة الصفراء",
+        description:
+          "قرعة صفراء, دجاج, بصل, حمص مسلوق, بندورة, سمنة, ملح, ماجي...",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/kabsah.webp",
+        item: "كبسه بالدجاج",
+        description:
+          "بندورة, بصل, دجاج, رز بسمتي, جزر, ثوم, رب البندورة, زيت زيتون, فلفل ملح قرفة...",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/grillFood.png",
-    slug:"seafood",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item2",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item2",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item2",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item2",description:"hello",category:"icon"},
+    slug: "seafood",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item2",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item2",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item2",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item2",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/grill_fish.webp",
-    slug:"grill_food",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item3",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item3",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item3",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item3",description:"hello",category:"icon"},
+    slug: "grill_food",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item3",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item3",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item3",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item3",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "مأكولات بحرية",
     category: "icon",
   },
   {
     icon: "/uploads/icons/seafood.png",
-    slug:"pottery",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item4",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item4",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item4",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item4",description:"hello",category:"icon"},
+    slug: "pottery",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item4",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item4",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item4",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item4",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"pizza",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item5",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item5",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item5",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item5",description:"hello",category:"icon"},
+    slug: "pizza",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item5",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item5",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item5",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item5",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"cold_snacks",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item6",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item6",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item6",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item6",description:"hello",category:"icon"},
+    slug: "cold_snacks",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item6",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item6",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item6",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item6",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"hot_snacks",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item7",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item7",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item7",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item7",description:"hello",category:"icon"},
+    slug: "hot_snacks",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item7",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item7",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item7",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item7",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"soup",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item8",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item8",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item8",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item8",description:"hello",category:"icon"},
+    slug: "soup",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item8",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item8",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item8",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item8",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
   },
   {
     icon: "/uploads/icons/fakhar.png",
-    slug:"salad",
-    images:[
-      {image:"/uploads/products/dessert1.jpg",item:"item9",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item9",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item9",description:"hello",category:"icon"},
-      {image:"/uploads/products/dessert1.jpg",item:"item9",description:"hello",category:"icon"},
+    slug: "salad",
+    images: [
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item9",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item9",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item9",
+        description: "hello",
+        category: "icon",
+      },
+      {
+        image: "/uploads/products/dessert1.jpg",
+        item: "item9",
+        description: "hello",
+        category: "icon",
+      },
     ],
     title: "طبق رئيسي",
     category: "icon",
@@ -276,6 +459,14 @@ export const products = [
     image: "/uploads/products/dessert1.jpg",
     title: "كنافة",
     description: "كنافة على الفحم:\n طريقة عمل الكنافة...",
+    descriptions: [
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص",
+    ],
     price: 90,
     discount: 20,
     category: "dessert",
@@ -285,6 +476,14 @@ export const products = [
     image: "/uploads/products/dessert2.jpg",
     title: "حلاوة الجبن",
     description: "كنافة على الفحم:\n طريقة عمل الكنافة...",
+    descriptions: [
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص",
+    ],
     price: 90,
     discount: 20,
     category: "dessert",
@@ -293,6 +492,14 @@ export const products = [
     image: "/uploads/products/dessert3.jpg",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
+    descriptions: [
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص",
+    ],
     price: 90,
     discount: 20,
     category: "dessert",
@@ -301,6 +508,14 @@ export const products = [
     image: "/uploads/products/dessert4.webp",
     title: "كنافة",
     description: "طريقة عمل الكنافة",
+    descriptions: [
+      "600 غرام صدور دجاج",
+      "500 غرام لبن",
+      "كوب رز",
+      "لوز محمص",
+      "بقدونس",
+      "خبز عربي محمص",
+    ],
     price: 90,
     discount: 20,
     category: "dessert",
