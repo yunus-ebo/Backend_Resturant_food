@@ -523,7 +523,7 @@ export const products = [
   {
     image: "/uploads/products/offerM1.webp",
     title: "كنافة",
-    description: "طريقة عمل الكنافة",
+    description: "عرض خاص لمدة 3 أيام",
     price: 90,
     discount: 10,
     category: "offer",
@@ -531,7 +531,7 @@ export const products = [
   {
     image: "/uploads/products/offerM2.webp",
     title: "حلاوة الجبن",
-    description: "كنافة على الفحم:\n طريقة عمل الكنافة...",
+    description: "عرض خاص لمدة 2 أيام",
     price: 90,
     discount: 15,
     category: "offer",
@@ -539,7 +539,7 @@ export const products = [
   {
     image: "/uploads/products/offerM3.webp",
     title: "كنافة",
-    description: "طريقة عمل الكنافة",
+    description: "عرض خاص لمدة 6 أيام",
     price: 90,
     discount: 12,
     category: "offer",
@@ -547,7 +547,7 @@ export const products = [
   {
     image: "/uploads/products/offerM4.avif",
     title: "كنافة",
-    description: "طريقة عمل الكنافة",
+    description: "عرض خاص لمدة 4 أيام",
     price: 90,
     discount: 5,
     category: "offer",
@@ -555,7 +555,7 @@ export const products = [
   {
     image: "/uploads/products/offerM5.webp",
     title: "كنافة",
-    description: "طريقة عمل الكنافة",
+    description: "عرض خاص لمدة 4 أيام",
     price: 90,
     discount: 10,
     category: "offer",
